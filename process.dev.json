@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "hong-kong-cycling-map",
+      "script": "npm",
+      "args": "start",
+      "instances": 1,
+      "exec_mode": "cluster",
+      "listen_timeout": 10000,
+      "kill_timeout": 10000,
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}

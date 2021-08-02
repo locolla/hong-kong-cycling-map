@@ -1,0 +1,90 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
+import Image, { getImageBasePath } from '@/components/Image';
+import { useRouter, Router } from 'next/router';
+
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 360,
+  },
+  cardAction: {
+    display: 'block',
+    textAlign: 'initial'
+  },
+  grid:{
+    justifyContent: 'space-between',
+  }
+});
+
+interface Props {
+  children: React.ReactElement | any;
+  src: string;
+  title: string;
+  distance: number;
+  period: number;
+  difficult: number;
+  postLink: string
+}
+
+
+const NavgiationCard = ({
+  src,
+  title,
+  distance,
+  period,
+  difficult,
+  postLink
+}: Props) =>  {
+  const classes = useStyles();
+  const starItem = [...Array(difficult)]
+  const router = useRouter();
+
+
+  const goTo: Function = (url: string, link: string) => {
+    router.push({
+      pathname: url,
+      query: {link: link}
+    });
+  };
+  
+  return (
+
+    <Card className={classes.root} onClick={() => goTo("/article", postLink)}>
+      <CardActionArea >
+        <CardContent>
+          <Grid container className={classes.grid}>
+          <Typography gutterBottom variant="h6" component="h2">
+          {title}
+          </Typography>
+          <Typography style={{color:"#B2B1B1"}}>
+          {distance} km {period} min
+          </Typography>
+          </Grid>
+          <div>
+          {starItem.map((sitem, index) => (
+            <Image key={index} src="star-16.png" width={13} height={13} layout="fixed" loading="eager"/>
+          ))}
+         </div>
+        </CardContent>
+        <CardMedia
+          component="img"
+          alt={title}
+          height="180"
+          src={src}
+          title={title}
+        />
+      </CardActionArea>
+      
+    </Card>
+  );
+}
+
+export default NavgiationCard;
