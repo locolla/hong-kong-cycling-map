@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 const article = () => {
   const router = useRouter();
   const classes = useStyles();
-  const link = router.query['link']?.toString();
+  const link = router.query['link']?.toString() || '';
   const backHome = () => {
     router.back();
   };
