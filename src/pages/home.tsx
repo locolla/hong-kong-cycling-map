@@ -219,7 +219,7 @@ const home = () => {
                 difficult={item.difficult}
                 postLink={item.post_link}
                 region={item.start.region}
-              ></HomeCard>
+              />
             ) : (
               ''
             ),

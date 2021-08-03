@@ -25,11 +25,10 @@ const useStyles = makeStyles({
 });
 
 interface Props {
-  children: React.ReactElement | any;
   src: string;
   title: string;
-  distance: number;
-  period: number;
+  distance?: number;
+  period?: number;
   difficult: number;
   postLink: string;
   region: string;

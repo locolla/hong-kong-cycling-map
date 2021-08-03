@@ -160,7 +160,7 @@ const Page = () => {
               period={item.period}
               difficult={item.difficult}
               postLink={item.post_link}
-            ></NavgiationCard>
+            />
           ))}
         </Container>
       )}

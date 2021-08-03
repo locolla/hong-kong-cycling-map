@@ -25,7 +25,6 @@ const useStyles = makeStyles({
 });
 
 interface Props {
-  children: React.ReactElement | any;
   src: string;
   title: string;
   distance: number;
