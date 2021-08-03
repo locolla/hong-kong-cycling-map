@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import {
-  createStyles,
-  alpha,
-  Theme,
-  makeStyles,
-} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
 import lightBlue from '@material-ui/core/colors/lightBlue';
 import NavgiationCard from '@/components/landing/NavgiationCard';
 import Home from '@/pages/home';
-import { usePosition } from 'use-position';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import itemData from '../database/database.json';
 import SearchBar from 'material-ui-search-bar';
 
@@ -136,7 +128,6 @@ const Page = () => {
 
   return (
     <React.Fragment>
-      <Container disableGutters maxWidth={false}></Container>
       <Container className={classes.searchbar}>
         <SearchBar
           placeholder="Search your destination"

@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import { useRouter } from 'next/router';
-import {
-  createStyles,
-  alpha,
-  Theme,
-  makeStyles,
-} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 
 import lightBlue from '@material-ui/core/colors/lightBlue';

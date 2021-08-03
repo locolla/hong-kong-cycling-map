@@ -1,12 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import { useRouter } from 'next/router';
-import {
-  createStyles,
-  alpha,
-  Theme,
-  makeStyles,
-} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Iframe from 'react-iframe';
 import IconButton from '@material-ui/core/IconButton';
