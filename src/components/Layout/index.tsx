@@ -10,7 +10,6 @@ import Footer from './Footer';
 import Header from './Header';
 import Meta from './Meta';
 
-
 interface Props {
   children: React.ReactElement | any;
 }
@@ -39,7 +38,6 @@ const Page = ({ children }: Props) => {
 
   const showAppBar = router.query.inApp !== '1';
 
-
   return (
     <React.Fragment>
       <Head>
@@ -55,7 +53,6 @@ const Page = ({ children }: Props) => {
         <Meta />
       </Head>
       <div className={classes.root}>
-       
         <main
           className={clsx({
             [classes.main]: showAppBar,

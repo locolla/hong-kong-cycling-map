@@ -19,7 +19,6 @@ const VerticalAppBar = withStyles({
   },
 })(AppBar);
 
-
 const BottomAppBar = withStyles({
   root: {
     height: 'auto',
@@ -38,7 +37,9 @@ const MuiAppBar = ({ direction = 'horizontal', ...props }: Props) => {
     <VerticalAppBar {...props} />
   ) : direction === 'horizontal' ? (
     <BottomAppBar {...props} />
-  ) : <AppBar {...props} />;
+  ) : (
+    <AppBar {...props} />
+  );
 };
 
 export default MuiAppBar;

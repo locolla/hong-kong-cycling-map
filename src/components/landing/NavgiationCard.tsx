@@ -17,11 +17,11 @@ const useStyles = makeStyles({
   },
   cardAction: {
     display: 'block',
-    textAlign: 'initial'
+    textAlign: 'initial',
   },
-  grid:{
+  grid: {
     justifyContent: 'space-between',
-  }
+  },
 });
 
 interface Props {
@@ -31,9 +31,8 @@ interface Props {
   distance: number;
   period: number;
   difficult: number;
-  postLink: string
+  postLink: string;
 }
-
 
 const NavgiationCard = ({
   src,
@@ -41,38 +40,43 @@ const NavgiationCard = ({
   distance,
   period,
   difficult,
-  postLink
-}: Props) =>  {
+  postLink,
+}: Props) => {
   const classes = useStyles();
-  const starItem = [...Array(difficult)]
+  const starItem = [...Array(difficult)];
   const router = useRouter();
-
 
   const goTo: Function = (url: string, link: string) => {
     router.push({
       pathname: url,
-      query: {link: link}
+      query: { link: link },
     });
   };
-  
-  return (
 
-    <Card className={classes.root} onClick={() => goTo("/article", postLink)}>
-      <CardActionArea >
+  return (
+    <Card className={classes.root} onClick={() => goTo('/article', postLink)}>
+      <CardActionArea>
         <CardContent>
           <Grid container className={classes.grid}>
-          <Typography gutterBottom variant="h6" component="h2">
-          {title}
-          </Typography>
-          <Typography style={{color:"#B2B1B1"}}>
-          {distance} km {period} min
-          </Typography>
+            <Typography gutterBottom variant="h6" component="h2">
+              {title}
+            </Typography>
+            <Typography style={{ color: '#B2B1B1' }}>
+              {distance} km {period} min
+            </Typography>
           </Grid>
           <div>
-          {starItem.map((sitem, index) => (
-            <Image key={index} src="star-16.png" width={13} height={13} layout="fixed" loading="eager"/>
-          ))}
-         </div>
+            {starItem.map((sitem, index) => (
+              <Image
+                key={index}
+                src="star-16.png"
+                width={13}
+                height={13}
+                layout="fixed"
+                loading="eager"
+              />
+            ))}
+          </div>
         </CardContent>
         <CardMedia
           component="img"
@@ -82,9 +86,8 @@ const NavgiationCard = ({
           title={title}
         />
       </CardActionArea>
-      
     </Card>
   );
-}
+};
 
 export default NavgiationCard;

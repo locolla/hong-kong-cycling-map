@@ -11,16 +11,15 @@ import Grid from '@material-ui/core/Grid';
 import Image, { getImageBasePath } from '@/components/Image';
 import { useRouter, Router } from 'next/router';
 
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 360,
   },
   cardAction: {
     display: 'block',
-    textAlign: 'initial'
+    textAlign: 'initial',
   },
-  grid:{
+  grid: {
     justifyContent: 'space-between',
   },
 });
@@ -36,7 +35,6 @@ interface Props {
   region: string;
 }
 
-
 const HomeCard = ({
   src,
   title,
@@ -44,22 +42,20 @@ const HomeCard = ({
   period,
   difficult,
   postLink,
-  region
-}: Props) =>  {
+  region,
+}: Props) => {
   const classes = useStyles();
-  const starItem = [...Array(difficult)]
+  const starItem = [...Array(difficult)];
   const router = useRouter();
   const goTo: Function = (url: string, link: string) => {
     router.push({
       pathname: url,
-      query: {link: link}
+      query: { link: link },
     });
   };
   return (
-      
-    <Card className={classes.root} onClick={() => goTo("/article", postLink)}>
+    <Card className={classes.root} onClick={() => goTo('/article', postLink)}>
       <CardActionArea>
-       
         <CardMedia
           component="img"
           alt={title}
@@ -68,26 +64,38 @@ const HomeCard = ({
           title={title}
         />
       </CardActionArea>
-      
-      <CardContent>
-          <Grid container className={classes.grid}>
-            <div>
-                <b>{title}</b> 
-                <br></br>
-                <Image src="location.png" width={13} height={13} layout="fixed" loading="eager"/><span style={{color:"#B2B1B1"}}> {region}</span>
-            </div>
-          <Typography style={{color:"#B2B1B1"}}>
-          {starItem.map((sitem, index) => (
-            <Image key={index} src="star-16.png" width={13} height={13} layout="fixed" loading="eager"/>
-          ))}
-          </Typography>
-          </Grid>
-          <div>
-         </div>
-        </CardContent>
 
+      <CardContent>
+        <Grid container className={classes.grid}>
+          <div>
+            <b>{title}</b>
+            <br></br>
+            <Image
+              src="location.png"
+              width={13}
+              height={13}
+              layout="fixed"
+              loading="eager"
+            />
+            <span style={{ color: '#B2B1B1' }}> {region}</span>
+          </div>
+          <Typography style={{ color: '#B2B1B1' }}>
+            {starItem.map((sitem, index) => (
+              <Image
+                key={index}
+                src="star-16.png"
+                width={13}
+                height={13}
+                layout="fixed"
+                loading="eager"
+              />
+            ))}
+          </Typography>
+        </Grid>
+        <div></div>
+      </CardContent>
     </Card>
   );
-}
+};
 
 export default HomeCard;

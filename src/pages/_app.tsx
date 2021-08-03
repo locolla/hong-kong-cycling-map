@@ -11,9 +11,8 @@ import Layout from '@/components/Layout';
 import theme from '@/theme';
 
 class MyApp extends NextApp<AppProps> {
-
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   componentDidMount() {
@@ -22,12 +21,8 @@ class MyApp extends NextApp<AppProps> {
     jssStyles?.parentNode?.removeChild(jssStyles);
   }
 
-  
-
-
   render() {
     const { Component, pageProps } = this.props;
-    
 
     return (
       <ThemeProvider theme={theme}>

@@ -14,17 +14,14 @@ module.exports = (phase) => {
   const isStaging =
     phase === PHASE_PRODUCTION_BUILD && process.env.STAGING === '1';
 
-  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'; 
-  
-  
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
   console.log(`isDev:${isDev}  isProd:${isProd}   isStaging:${isStaging}`);
 
   return {
     images: {
-      domains: ['images.ctfassets.net']
+      domains: ['images.ctfassets.net'],
     },
     basePath: '/hong-kong-cycling-map',
   };
 };
-

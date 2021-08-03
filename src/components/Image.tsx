@@ -118,7 +118,6 @@ const Image = ({
     return <NextImage src={`${basePath}${src}`} layout={layout} {...props} />;
   }
 
-
   return !loading && dimension.height > 0 && dimension.width > 0 ? (
     <NextImage
       src={`${basePath}${src}`}

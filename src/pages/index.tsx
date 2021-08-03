@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-
-import { createStyles, alpha, Theme, makeStyles } from '@material-ui/core/styles';
+import {
+  createStyles,
+  alpha,
+  Theme,
+  makeStyles,
+} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
-
 
 import lightBlue from '@material-ui/core/colors/lightBlue';
 import NavgiationCard from '@/components/landing/NavgiationCard';
@@ -11,9 +14,8 @@ import Home from '@/pages/home';
 import { usePosition } from 'use-position';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-import itemData from '../database/database.json'
-import SearchBar from "material-ui-search-bar";
-
+import itemData from '../database/database.json';
+import SearchBar from 'material-ui-search-bar';
 
 const useStyles = makeStyles((theme) => ({
   gridItem: {
@@ -75,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(6),
     marginTop: theme.spacing(6),
   },
-  
+
   sectionPrimaryBackground: {
     backgroundColor: theme.palette.primary.light,
     color: theme.palette.primary.contrastText,
@@ -92,72 +94,63 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.common.white,
     justifyContent: 'flex-end',
   },
-  topicHeader:{
+  topicHeader: {
     justifyContent: 'space-between',
-    alignItems: 'bottom'
+    alignItems: 'bottom',
   },
-  searchbar:{
+  searchbar: {
     marginTop: theme.spacing(3),
-  }
+  },
 }));
-
 
 const Page = () => {
   const classes = useStyles();
-    
+
   const [lists, setLists] = React.useState(itemData);
-  
 
-  const [searchValue, setSearchValue] =  React.useState('');
+  const [searchValue, setSearchValue] = React.useState('');
   const [isSearching, setIsSearching] = React.useState(false);
-
 
   const onChangeSearchBar = (newValue) => {
     setSearchValue(newValue);
-    if (newValue == '')
-    {
+    if (newValue == '') {
       setIsSearching(false);
       setLists([]);
-    }
-    else{
+    } else {
       setIsSearching(true);
-      const filterList = itemData.filter((itemData) => itemData.keywords.includes(newValue))
+      const filterList = itemData.filter((itemData) =>
+        itemData.keywords.includes(newValue),
+      );
       setLists(filterList);
     }
-  }
+  };
 
   const onCancelSearch = () => {
     setIsSearching(false);
     setLists([]);
-  }
+  };
 
   React.useEffect(() => {
     setLists([]);
   }, []);
 
-
   return (
     <React.Fragment>
-      <Container
-        disableGutters
-        maxWidth={false}
-      >
-    
-      </Container>
+      <Container disableGutters maxWidth={false}></Container>
       <Container className={classes.searchbar}>
         <SearchBar
-              placeholder="Search your destination"
-              value={searchValue}
-              onChange={(newValue) => onChangeSearchBar(newValue)}
-              onRequestSearch={() => onChangeSearchBar(searchValue)}
-              onCancelSearch={() => onCancelSearch()}
-          />
+          placeholder="Search your destination"
+          value={searchValue}
+          onChange={(newValue) => onChangeSearchBar(newValue)}
+          onRequestSearch={() => onChangeSearchBar(searchValue)}
+          onCancelSearch={() => onCancelSearch()}
+        />
       </Container>
-     
-      {!isSearching ? <Home></Home> : 
-           
-      
-      <Container disableGutters className={classes.imageListContainer}> 
+
+      {!isSearching ? (
+        <Home></Home>
+      ) : (
+        <Container disableGutters className={classes.imageListContainer}>
           {lists.map((item, index) => (
             <NavgiationCard
               key={item.post_name}
@@ -167,16 +160,12 @@ const Page = () => {
               period={item.period}
               difficult={item.difficult}
               postLink={item.post_link}
-            >
-            </NavgiationCard> 
-            ))}
-      
+            ></NavgiationCard>
+          ))}
         </Container>
-}
-
+      )}
     </React.Fragment>
   );
 };
-
 
 export default Page;
