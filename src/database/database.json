@@ -186,9 +186,9 @@
     "hit_rate": 4561,
     "post_name": "頌安邨 至 孖橋",
     "post_link": "https://loco.hk/article/LocobikeRoute8?inapp=1",
-    "distance": 3,
-    "period": 12,
-    "difficult": 2,
+    "distance": 5,
+    "period": 15,
+    "difficult": 1,
     "keywords": "頌安邨,馬鞍山,雙子橋,頌安邨 至 孖橋"
   },
   {
@@ -211,8 +211,8 @@
     "post_name": "迎東邨 至 東薈城",
     "post_link": "https://loco.hk/article/LocobikeRoute9?inapp=1",
     "distance": 3,
-    "period": 12,
-    "difficult": 2,
+    "period": 15,
+    "difficult": 1,
     "keywords": "迎東邨,東薈城,東涌,迎東邨 至 東薈城"
   },
   {
@@ -234,9 +234,81 @@
     "hit_rate": 4561,
     "post_name": "東薈城 至 滿東邨",
     "post_link": "https://loco.hk/article/LocobikeRoute10?inapp=1",
-    "distance": 3,
-    "period": 12,
+    "distance": 5.5,
+    "period": 15,
     "difficult": 2,
     "keywords": "滿東邨(東涌道),東薈城,東涌,迎東邨 至 東薈城"
+  },
+  {
+    "id": "11",
+    "start": {
+      "name": "滿東邨總站",
+      "lat": "22.277923",
+      "lng": "113.932400",
+      "radius": 5,
+      "region": "東涌"
+    },
+    "end": {
+      "name": "東涌新發展碼頭",
+      "lat": "22.293824",
+      "lng": "113.940386",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/4trz80Jdqw26jwcN7S6HfB/ff48cd32b4431efd06a2fcb1c669c0c8/________________11.jpg",
+    "hit_rate": 5,
+    "post_name": "滿東 至 碼頭",
+    "post_link": "https://loco.hk/article/LocobikeRoute11?inapp=1",
+    "distance": 3,
+    "period": 15,
+    "difficult": 2,
+    "keywords": "滿東 至 碼頭,滿東邨總站,東涌,東涌新發展碼頭"
+  },
+  {
+    "id": "12",
+    "start": {
+      "name": "東涌新發展碼頭",
+      "lat": "22.293824",
+      "lng": "113.940386",
+      "radius": 5,
+      "region": "東涌"
+    },
+    "end": {
+      "name": "迎東邨",
+      "lat": "22.297101",
+      "lng": "113.952763",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/6M3lJqre693WXx8XgwxKyC/2a3cd387534372e31af9f9f4e42dacf6/_______________-04.jpg",
+    "hit_rate": 2,
+    "post_name": "碼頭 至 迎東",
+    "post_link": "https://loco.hk/article/LocobikeRoute12?inapp=1",
+    "distance": 2,
+    "period": 10,
+    "difficult": 1,
+    "keywords": "東涌新發展碼頭,迎東邨,東涌,碼頭 至 迎東"
+  },
+  {
+    "id": "13",
+    "start": {
+      "name": "大埔墟站",
+      "lat": "22.444238",
+      "lng": "114.171352",
+      "radius": 5,
+      "region": "大埔"
+    },
+    "end": {
+      "name": "大埔三門仔路",
+      "lat": "22.460157",
+      "lng": "114.203608",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/fyrMegcIyHLAMcCLG4iJw/97d11eb27a778c89d6c833d7129020bf/________________13.jpg",
+    "hit_rate": 1,
+    "post_name": "大埔墟站 至 大埔三門仔路",
+    "post_link": "https://loco.hk/article/LocobikeRoute13?inapp=1",
+    "distance": 5,
+    "period": 20,
+    "difficult": 1,
+    "keywords": "大埔墟站,大埔三門仔路,大埔,大埔墟站 至 大埔三門仔路"
   }
 ]
