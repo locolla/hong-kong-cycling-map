@@ -137,7 +137,7 @@ const home = () => {
       arePointNear(itemData.end.lat, itemData.end.lng, itemData.end.radius),
   );
 
-  const hitLists = itemData.sort((itemData) => itemData.hit_rate);
+  const hitLists = itemData.sort((a, b) => (a.hit_rate > b.hit_rate) ? 1 : -1);
 
   React.useEffect(() => {}, []);
 
