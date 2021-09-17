@@ -406,5 +406,101 @@
     "period": 12,
     "difficult": 1,
     "keywords": "運頭塘邨,大埔太平工業村,大埔,運頭塘邨 至 大埔太平工業村"
+  },
+  {
+    "id": "18",
+    "start": {
+      "name": "將軍澳站",
+      "lat": "22.307296",
+      "lng": "114.260024",
+      "radius": 5,
+      "region": "將軍澳"
+    },
+    "end": {
+      "name": "康城路迴旋處",
+      "lat": "22.296275",
+      "lng": "114.267163",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/4NUr8EDJ7reJ84aIgSZ4j4/16d65044733f3fd01aaa74c1919dc955/locovlog_TKO_18.jpg",
+    "hit_rate": 2356,
+    "post_name": "將軍澳站 至 康城路迴旋處",
+    "post_link": "https://loco.hk/article/LocobikeRoute18?inapp=1",
+    "distance": 3.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "將軍澳站,康城路迴旋處,將軍澳,將軍澳站 至 康城路迴旋處"
+  },
+  {
+    "id": "19",
+    "start": {
+      "name": "康城路迴旋處",
+      "lat": "22.296275",
+      "lng": "114.267163",
+      "radius": 5,
+      "region": "將軍澳"
+    },
+    "end": {
+      "name": "坑口站",
+      "lat": "22.316064",
+      "lng": "114.263918",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/zdBK8vFqhapWk0I1jBoB7/21619c5e93fb5f53ba14d87e12a5ee34/locovlog_TKO_19.jpg",
+    "hit_rate": 985,
+    "post_name": "康城路迴旋處 至 坑口站",
+    "post_link": "https://loco.hk/article/LocobikeRoute19?inapp=1",
+    "distance": 3.8,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "康城路迴旋處,坑口站,將軍澳,康城路迴旋處 至 坑口站"
+  },
+  {
+    "id": "20",
+    "start": {
+      "name": "坑口站",
+      "lat": "22.316064",
+      "lng": "114.263918",
+      "radius": 5,
+      "region": "將軍澳"
+    },
+    "end": {
+      "name": "寶林站",
+      "lat": "22.322622",
+      "lng": "114.257364",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/5enuZu3sCWajtjKaICyWsB/2840704530fcdea1d3ce4d718a4d2319/locovlog_TKO_20.jpg",
+    "hit_rate": 125,
+    "post_name": "坑口站 至 寶林站",
+    "post_link": "https://loco.hk/article/LocobikeRoute20?inapp=1",
+    "distance": 3,
+    "period": 11,
+    "difficult": 1,
+    "keywords": "坑口站,寶林站,將軍澳,坑口站 至 寶林站"
+  },
+  {
+    "id": "21",
+    "start": {
+      "name": "寶林站",
+      "lat": "22.322622",
+      "lng": "114.257364",
+      "radius": 5,
+      "region": "將軍澳"
+    },
+    "end": {
+      "name": "調景嶺站",
+      "lat": "22.304586",
+      "lng": "114.253161",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/1p39tuLqOySXdPM0hETrmL/ddcb9683895efa4362bac159da920a5f/locovlog_TKO_21.jpg",
+    "hit_rate": 624,
+    "post_name": "寶林站 至 調景嶺站",
+    "post_link": "https://loco.hk/article/LocobikeRoute21?inapp=1",
+    "distance": 3.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "寶林站,調景嶺站,將軍澳,寶林站 至 調景嶺站"
   }
 ]
