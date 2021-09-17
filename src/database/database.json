@@ -310,5 +310,101 @@
     "period": 20,
     "difficult": 1,
     "keywords": "大埔墟站,大埔三門仔路,大埔,大埔墟站 至 大埔三門仔路"
+  },
+  {
+    "id": "14",
+    "start": {
+      "name": "大埔三門仔路",
+      "lat": "22.460157",
+      "lng": "114.203608",
+      "radius": 5,
+      "region": "大埔"
+    },
+    "end": {
+      "name": "大尾督",
+      "lat": "22.469316",
+      "lng": "114.233385",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/2g77itX2iXAgmzU0LUeuJT/5a49acdd5470f6fa5d4e49fd4902b44f/locovlog_cover_14.jpg",
+    "hit_rate": 1,
+    "post_name": "大埔三門仔路 至 大尾督",
+    "post_link": "https://loco.hk/article/LocobikeRoute14?inapp=1",
+    "distance": 4.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "大尾督,大埔三門仔路,大埔,大尾督 至 大埔三門仔路"
+  },
+  {
+    "id": "15",
+    "start": {
+      "name": "大尾督",
+      "lat": "22.469316",
+      "lng": "114.233385",
+      "radius": 5,
+      "region": "大埔"
+    },
+    "end": {
+      "name": "白沙頭",
+      "lat": "22.455338",
+      "lng": "114.247869",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/3ix799AO1rs3JcDh0lMI8G/1e9ca3a7033064363694320fae488f16/locovlog_cover_15.jpg",
+    "hit_rate": 1,
+    "post_name": "大尾督 至 白沙頭",
+    "post_link": "https://loco.hk/article/LocobikeRoute15?inapp=1",
+    "distance": 2.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "大尾督,白沙頭,大埔,大尾督 至 白沙頭"
+  },
+  {
+    "id": "16",
+    "start": {
+      "name": "大埔海濱公園盡頭(釣魚區)",
+      "lat": "22.450870",
+      "lng": "114.193013",
+      "radius": 5,
+      "region": "大埔"
+    },
+    "end": {
+      "name": "達運路公廁(碗窰)",
+      "lat": "22.438159",
+      "lng": "114.164491",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/63PNTrF7wrTDzoemYwBInW/dd24bfa5eda26aa286d065475942f7da/locovlog_cc_16.jpg",
+    "hit_rate": 1,
+    "post_name": "大埔海濱公園盡頭(釣魚區) 至 達運路公廁(碗窰)",
+    "post_link": "https://loco.hk/article/LocobikeRoute16?inapp=1",
+    "distance": 5,
+    "period": 16,
+    "difficult": 2,
+    "keywords": "大埔海濱公園盡頭(釣魚區),達運路公廁(碗窰),大埔,大埔海濱公園盡頭(釣魚區) 至 達運路公廁(碗窰)"
+  },
+  {
+    "id": "17",
+    "start": {
+      "name": "運頭塘邨",
+      "lat": "22.442741",
+      "lng": "114.166467",
+      "radius": 5,
+      "region": "大埔"
+    },
+    "end": {
+      "name": "大埔太平工業村",
+      "lat": "22.455931",
+      "lng": "114.166833",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/6ORd8KzSb8XV0IYj7uOH8O/8680231ec7b6a4f35d11592ad963d868/locovlog_cc_17.jpg",
+    "hit_rate": 1,
+    "post_name": "運頭塘邨 至 大埔太平工業村",
+    "post_link": "https://loco.hk/article/LocobikeRoute17?inapp=1",
+    "distance": 3,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "運頭塘邨,大埔太平工業村,大埔,運頭塘邨 至 大埔太平工業村"
   }
 ]
