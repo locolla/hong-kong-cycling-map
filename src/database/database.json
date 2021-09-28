@@ -495,12 +495,156 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/1p39tuLqOySXdPM0hETrmL/ddcb9683895efa4362bac159da920a5f/locovlog_TKO_21.jpg",
-    "hit_rate": 624,
+    "hit_rate": 52,
     "post_name": "寶林站 至 調景嶺站",
     "post_link": "https://loco.hk/article/LocobikeRoute21?inapp=1",
     "distance": 3.5,
     "period": 15,
     "difficult": 1,
     "keywords": "寶林站,調景嶺站,將軍澳,寶林站 至 調景嶺站"
+  },
+  {
+    "id": "22",
+    "start": {
+      "name": "天水圍健康中心",
+      "lat": "22.454394",
+      "lng": "114.001948",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "香港濕地公園段",
+      "lat": "22.468040",
+      "lng": "114.003417",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/75MTIKMZGHa54dcEXJCk97/c9c7b0307c0415c10379f1b907f5e8df/locovlog_tsw_22.jpg",
+    "hit_rate": 462,
+    "post_name": "天水圍健康中心 至 香港濕地公園段",
+    "post_link": "https://loco.hk/article/LocobikeRoute22?inapp=1",
+    "distance": 4,
+    "period": 15,
+    "difficult": 3,
+    "keywords": "天水圍健康中心,香港濕地公園段,天水圍,天水圍健康中心 至 香港濕地公園段"
+  },
+  {
+    "id": "23",
+    "start": {
+      "name": "香港濕地公園",
+      "lat": "22.468040",
+      "lng": "114.003417",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "天水圍站",
+      "lat": "22.448542",
+      "lng": "114.004784",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/4ATG6VjnOvGgY88bkfU03m/aedf1ebe3d95a9aa62ef39cdb3af9080/locovlog_tsw_23.jpg",
+    "hit_rate": 52,
+    "post_name": "香港濕地公園 至 天水圍站",
+    "post_link": "https://loco.hk/article/LocobikeRoute23?inapp=1",
+    "distance": 3.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "香港濕地公園,天水圍站,天水圍,香港濕地公園 至 天水圍站"
+  },
+  {
+    "id": "24",
+    "start": {
+      "name": "天水圍站",
+      "lat": "22.448542",
+      "lng": "114.004784",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "塘坊村站",
+      "lat": "22.440079",
+      "lng": "114.007229",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/6T9QAelZlOchNOsCs47LW0/4f311b6b2e9f5ba209ed1700295b6e7a/locovlog_tsw_24.jpg",
+    "hit_rate": 593,
+    "post_name": "天水圍站 至 塘坊村站",
+    "post_link": "https://loco.hk/article/LocobikeRoute24?inapp=1",
+    "distance": 3.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "天水圍站,塘坊村站,天水圍,天水圍站 至 塘坊村站"
+  },
+  {
+    "id": "25",
+    "start": {
+      "name": "塘坊村站",
+      "lat": "22.440079",
+      "lng": "114.007229",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "朗屏港鐵站",
+      "lat": "22.448004",
+      "lng": "114.024829",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/61hsv6bdDcrrKVcZBlzsVY/e901b4a6ab52342c95cf15a512f4185e/locovlog_tsw_25.jpg",
+    "hit_rate": 92,
+    "post_name": "塘坊村站 至 朗屏港鐵站",
+    "post_link": "https://loco.hk/article/LocobikeRoute25?inapp=1",
+    "distance": 3,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "塘坊村站,朗屏港鐵站,天水圍,塘坊村站 至 朗屏港鐵站"
+  },
+  {
+    "id": "26",
+    "start": {
+      "name": "朗屏站",
+      "lat": "22.448004",
+      "lng": "114.024829",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "天水圍站",
+      "lat": "22.448542",
+      "lng": "114.004784",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/zTUuOFYT2i3f6sqE4UmzW/99795674776f1295937fc0deb309b446/locovlog_tsw_26.jpg",
+    "hit_rate": 725,
+    "post_name": "朗屏站 至 天水圍站",
+    "post_link": "https://loco.hk/article/LocobikeRoute26?inapp=1",
+    "distance": 2.5,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "朗屏站,天水圍站,天水圍,朗屏站 至 天水圍站"
+  },
+  {
+    "id": "27",
+    "start": {
+      "name": "天水圍站",
+      "lat": "22.448542",
+      "lng": "114.004784",
+      "radius": 5,
+      "region": "天水圍"
+    },
+    "end": {
+      "name": "天瑞邨",
+      "lat": "22.457021",
+      "lng": "113.995354",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/5odm735fgOEFol15PgppP0/039be20652c291dbf5badf0275aaa0a8/locovlog_tsw_27.jpg",
+    "hit_rate": 238,
+    "post_name": "天水圍站 至 天瑞邨",
+    "post_link": "https://loco.hk/article/LocobikeRoute27?inapp=1",
+    "distance": 2.5,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "天水圍站,天瑞邨,天水圍,天水圍站 至 天瑞邨"
   }
 ]
