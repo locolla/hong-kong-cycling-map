@@ -41,14 +41,15 @@ const article = () => {
       maxWidth={false}
       className={classes.imageListContainer}
     >
-      <IconButton
+      
+      {/* <IconButton
         color="inherit"
         aria-label="open drawer"
         onClick={backHome}
         className={classes.embedbutton}
       >
         <ArrowBackIosRoundedIcon />
-      </IconButton>
+      </IconButton> */}
       <Iframe
         url={link}
         width="100%"
