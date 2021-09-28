@@ -279,7 +279,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/6M3lJqre693WXx8XgwxKyC/2a3cd387534372e31af9f9f4e42dacf6/_______________-04.jpg",
-    "hit_rate": 2,
+    "hit_rate": 618,
     "post_name": "碼頭 至 迎東",
     "post_link": "https://loco.hk/article/LocobikeRoute12?inapp=1",
     "distance": 2,
@@ -303,7 +303,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/fyrMegcIyHLAMcCLG4iJw/97d11eb27a778c89d6c833d7129020bf/________________13.jpg",
-    "hit_rate": 1,
+    "hit_rate": 333,
     "post_name": "大埔墟站 至 大埔三門仔路",
     "post_link": "https://loco.hk/article/LocobikeRoute13?inapp=1",
     "distance": 5,
@@ -327,7 +327,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/2g77itX2iXAgmzU0LUeuJT/5a49acdd5470f6fa5d4e49fd4902b44f/locovlog_cover_14.jpg",
-    "hit_rate": 1,
+    "hit_rate": 12,
     "post_name": "大埔三門仔路 至 大尾督",
     "post_link": "https://loco.hk/article/LocobikeRoute14?inapp=1",
     "distance": 4.5,
@@ -351,7 +351,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/3ix799AO1rs3JcDh0lMI8G/1e9ca3a7033064363694320fae488f16/locovlog_cover_15.jpg",
-    "hit_rate": 1,
+    "hit_rate": 52,
     "post_name": "大尾督 至 白沙頭",
     "post_link": "https://loco.hk/article/LocobikeRoute15?inapp=1",
     "distance": 2.5,
@@ -375,7 +375,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/63PNTrF7wrTDzoemYwBInW/dd24bfa5eda26aa286d065475942f7da/locovlog_cc_16.jpg",
-    "hit_rate": 1,
+    "hit_rate": 152,
     "post_name": "大埔海濱公園盡頭(釣魚區) 至 達運路公廁(碗窰)",
     "post_link": "https://loco.hk/article/LocobikeRoute16?inapp=1",
     "distance": 5,
@@ -399,7 +399,7 @@
       "radius": 5
     },
     "image": "https://images.ctfassets.net/u4wepdl9zw5p/6ORd8KzSb8XV0IYj7uOH8O/8680231ec7b6a4f35d11592ad963d868/locovlog_cc_17.jpg",
-    "hit_rate": 1,
+    "hit_rate": 9663,
     "post_name": "運頭塘邨 至 大埔太平工業村",
     "post_link": "https://loco.hk/article/LocobikeRoute17?inapp=1",
     "distance": 3,
@@ -646,5 +646,317 @@
     "period": 12,
     "difficult": 1,
     "keywords": "天水圍站,天瑞邨,天水圍,天水圍站 至 天瑞邨"
+  },
+  {
+    "id": "28",
+    "start": {
+      "name": "科學園",
+      "lat": "22.425875",
+      "lng": "114.211153",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "沙田體育會水上活動中心",
+      "lat": "22.396637",
+      "lng": "114.209263",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/7LtYJAz5BbMZ5wed5mnHBw/b651c3f0f598b0f4188ce1a1d17d92cc/locovlog_st_28.jpg",
+    "hit_rate": 154,
+    "post_name": "科學園 至 沙田體育會水上活動中心",
+    "post_link": "https://loco.hk/article/LocobikeRoute28?inapp=1",
+    "distance": 4,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "科學園,沙田體育會水上活動中心,沙田,科學園 至 沙田體育會水上活動中心"
+  },
+  {
+    "id": "29",
+    "start": {
+      "name": "沙田體育會水上活動中心",
+      "lat": "22.396637",
+      "lng": "114.209263",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "大圍站",
+      "lat": "22.373712",
+      "lng": "114.178666",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/3A90rh4Yl0n5jsvHXqm8GV/aaf1b629627b5c974f655df0e0b870c6/locovlog_st_29.jpg",
+    "hit_rate": 125,
+    "post_name": "寶林站 至 大圍站",
+    "post_link": "https://loco.hk/article/LocobikeRoute29?inapp=1",
+    "distance": 4.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "沙田體育會水上活動中心,大圍站,沙田,沙田體育會水上活動中心 至 大圍站"
+  },
+  {
+    "id": "30",
+    "start": {
+      "name": "大圍站A",
+      "lat": "22.373712",
+      "lng": "114.178666",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "海福花園",
+      "lat": "22.373249",
+      "lng": "114.177184",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/4KXPXXTcC5WcN12kjWz7BC/fa0a93ac685fdc194323c0c218a40c73/locovlog_st_30.jpg",
+    "hit_rate": 2189,
+    "post_name": "大圍站A 至 海福花園",
+    "post_link": "https://loco.hk/article/LocobikeRoute30?inapp=1",
+    "distance": 3,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "大圍站A,海福花園,沙田,大圍站A 至 海福花園"
+  },
+  {
+    "id": "31",
+    "start": {
+      "name": "沙田公園",
+      "lat": "22.379404",
+      "lng": "114.190140",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "大水坑單車公園",
+      "lat": "22.406181",
+      "lng": "114.218598",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/5qqmqzZu2qOyIq4DuDg4Vx/e2b99047144c275d901c352213b16a1a/locovlog_st_31.jpg",
+    "hit_rate": 32,
+    "post_name": "沙田公園 至 大水坑單車公園",
+    "post_link": "https://loco.hk/article/LocobikeRoute31?inapp=1",
+    "distance": 4.5,
+    "period": 18,
+    "difficult": 2,
+    "keywords": "沙田公園,大水坑單車公園,沙田,沙田公園 至 大水坑單車公園"
+  },
+  {
+    "id": "32",
+    "start": {
+      "name": "大水坑單車公園",
+      "lat": "22.406181",
+      "lng": "114.218598",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "歷奇單車場",
+      "lat": "22.384648",
+      "lng": "114.208914",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/8CHGmttinJfQn0AMTCYFl/fbba40fd993bb0c73ab823b4b3a01d87/locovlog_st_32.jpg",
+    "hit_rate": 67,
+    "post_name": "大水坑單車公園 至 歷奇單車場",
+    "post_link": "https://loco.hk/article/LocobikeRoute32?inapp=1",
+    "distance": 2.5,
+    "period": 12,
+    "difficult": 1,
+    "keywords": "大水坑單車公園,歷奇單車場,沙田,大水坑單車公園 至 歷奇單車場"
+  },
+  {
+    "id": "33",
+    "start": {
+      "name": "歷奇單車場",
+      "lat": "22.384648",
+      "lng": "114.208914",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "香港恒生大學",
+      "lat": "22.380719",
+      "lng": "114.211453",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/3bycBAND2DBIo3uKN32Y6z/c02f7bf7408def5bb51ae512369acbce/locovlog_st_33.jpg",
+    "hit_rate": 696,
+    "post_name": "歷奇單車場 至 香港恒生大學",
+    "post_link": "https://loco.hk/article/LocobikeRoute33?inapp=1",
+    "distance": 2.5,
+    "period": 12,
+    "difficult": 4,
+    "keywords": "歷奇單車場,香港恒生大學,沙田,歷奇單車場 至 香港恒生大學"
+  },
+  {
+    "id": "34",
+    "start": {
+      "name": "香港恒生大學",
+      "lat": "22.380719",
+      "lng": "114.211453",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "圓洲角綜合大樓",
+      "lat": "22.379419",
+      "lng": "114.204354",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/e1dfYfCzesTla5a1bM4rQ/199ef185c3f140ef2256d987c0fcc5c7/locovlog_st_34.jpg",
+    "hit_rate": 18,
+    "post_name": "香港恒生大學 至 圓洲角綜合大樓",
+    "post_link": "https://loco.hk/article/LocobikeRoute34?inapp=1",
+    "distance": 2,
+    "period": 10,
+    "difficult": 3,
+    "keywords": "香港恒生大學,圓洲角綜合大樓,沙田,香港恒生大學 至 圓洲角綜合大樓"
+  },
+  {
+    "id": "35",
+    "start": {
+      "name": "圓洲角綜合大樓",
+      "lat": "22.379419",
+      "lng": "114.204354",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "沙田中央公園",
+      "lat": "22.379404",
+      "lng": "114.190140",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/6H23ZUHiNjKmCCGSq9c4hT/1e68edffad9218d2280d325834267eaf/locovlog_st_35.jpg",
+    "hit_rate": 71,
+    "post_name": "圓洲角綜合大樓 至 沙田中央公園",
+    "post_link": "https://loco.hk/article/LocobikeRoute35?inapp=1",
+    "distance": 3,
+    "period": 12,
+    "difficult": 2,
+    "keywords": "圓洲角綜合大樓,調景嶺站,沙田,圓洲角綜合大樓 至 沙田中央公園"
+  },
+  {
+    "id": "36",
+    "start": {
+      "name": "大圍站",
+      "lat": "22.373712",
+      "lng": "114.178666",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "科學園",
+      "lat": "22.425875",
+      "lng": "114.211153",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/6LrqhxqHXMA7JEzeCLI5zw/97271a381122a93d9defb960d3666bfd/locovlog_st_36.jpg",
+    "hit_rate": 445,
+    "post_name": "大圍站 至 科學園",
+    "post_link": "https://loco.hk/article/LocobikeRoute36?inapp=1",
+    "distance": 8,
+    "period": 27,
+    "difficult": 2,
+    "keywords": "大圍站,科學園,沙田,大圍站 至 科學園"
+  },
+  {
+    "id": "37",
+    "start": {
+      "name": "歷奇單車場",
+      "lat": "22.384648",
+      "lng": "114.208914",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "沙田圍站",
+      "lat": "22.377191",
+      "lng": "114.194873",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/4sKQsE56A8yyf7kOgwQM9j/5e0d679b6ceeb131fe717792ae4f232e/locovlog_st_37.jpg",
+    "hit_rate": 411,
+    "post_name": "歷奇單車場 至 沙田圍站",
+    "post_link": "https://loco.hk/article/LocobikeRoute37?inapp=1",
+    "distance": 2.5,
+    "period": 15,
+    "difficult": 1,
+    "keywords": "歷奇單車場,沙田圍站,沙田,歷奇單車場 至 沙田圍站"
+  },
+  {
+    "id": "38",
+    "start": {
+      "name": "曾大屋",
+      "lat": "22.375214",
+      "lng": "114.191018",
+      "radius": 5,
+      "region": "沙田"
+    },
+    "end": {
+      "name": "大圍站",
+      "lat": "22.373712",
+      "lng": "114.178666",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/7k9y7FbrFsuFijSHAqIPuh/cd2e16848137968bd3c273a5c8e8d528/locovlog_st_38.jpg",
+    "hit_rate": 23,
+    "post_name": "曾大屋 至 大圍站",
+    "post_link": "https://loco.hk/article/LocobikeRoute38?inapp=1",
+    "distance": 1.5,
+    "period": 5,
+    "difficult": 1,
+    "keywords": "曾大屋,大圍站,沙田,曾大屋 至 大圍站"
+  },
+  {
+    "id": "39",
+    "start": {
+      "name": "望后石消防局",
+      "lat": "22.366396",
+      "lng": "113.946992",
+      "radius": 5,
+      "region": "屯門"
+    },
+    "end": {
+      "name": "龍門居",
+      "lat": "22.383870",
+      "lng": "113.966964",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/3oGceYJeXwSQAqwgcZeeoG/b4cead8ea90158dd0744a9da14efa443/locovlog_0923_39.jpg",
+    "hit_rate": 985,
+    "post_name": "望后石消防局 至 龍門居",
+    "post_link": "https://loco.hk/article/LocobikeRoute39?inapp=1",
+    "distance": 3.5,
+    "period": 14,
+    "difficult": 2,
+    "keywords": "望后石消防局,龍門居,屯門,望后石消防局 至 龍門居"
+  },
+  {
+    "id": "40",
+    "start": {
+      "name": "康城路迴旋處",
+      "lat": "22.296275",
+      "lng": "114.267163",
+      "radius": 5,
+      "region": "將軍澳"
+    },
+    "end": {
+      "name": "香港單車館",
+      "lat": "22.312434",
+      "lng": "114.262274",
+      "radius": 5
+    },
+    "image": "https://images.ctfassets.net/u4wepdl9zw5p/5Nkz5aWND48eEVOh5VAbhB/4e5545e4f29994731c3f0f52f1688e15/locovlog_0923_40.png",
+    "hit_rate": 528,
+    "post_name": "康城路迴旋處 至 香港單車館",
+    "post_link": "https://loco.hk/article/LocobikeRoute40?inapp=1",
+    "distance": 2.5,
+    "period": 12,
+    "difficult": 2,
+    "keywords": "康城路迴旋處,香港單車館,將軍澳,康城路迴旋處 至 香港單車館"
   }
 ]
