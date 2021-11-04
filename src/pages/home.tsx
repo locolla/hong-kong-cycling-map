@@ -270,7 +270,7 @@ const home = () => {
       {!isShowAllNear ? (
         <Container disableGutters className={classes.imageListContainer}>
           {hitLists.map((item, index) =>
-            index <= 4 || isShowAllHit ? (
+            index < 4 || isShowAllHit ? (
               <HomeCard
                 key={item.post_name}
                 src={item.image}
